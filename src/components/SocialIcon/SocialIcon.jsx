@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaGithub, FaWhatsapp, FaBloggerB, FaDiscord} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 import styled from "styled-components";
@@ -72,6 +72,34 @@ function SocialIcon() {
             <FaXTwitter />
           </a>
         </li>
+        <li className="item">
+          <a
+            href="https://api.whatsapp.com/send?phone=9732839187"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaWhatsapp />
+          </a>
+        </li>
+        <li className="item">
+          <a
+            href="https://ritankar-blogging.netlify.app/writing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaBloggerB />
+          </a>
+        </li>
+        <li className="item">
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaDiscord />
+          </a>
+        </li>
+
       </ul>
     </SocialDiv>
   );
