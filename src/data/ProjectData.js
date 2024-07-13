@@ -8,7 +8,7 @@ export const ProjectList = [
     tech_stack: "ReactJs, Axios API, Material UI, chart.js",
     github_url: "https://github.com/ritankarsaha/Codeforces-Data-Visualiser",
     live_url: "https://codeforces-visualiser-ritankar.netlify.app/",
-    demo_youtube:"",
+    demo_youtube:"https://youtu.be/t_bb4BXj02c",
     demo: true,
   },
   {
@@ -19,7 +19,7 @@ export const ProjectList = [
     tech_stack: "Svelte,TypeScript,Shell",
     github_url: "https://github.com/ritankarsaha/Perosnal-Blogging",
     live_url: "https://ritankar-blogging.netlify.app/",
-    demo_youtube:"",
+    demo_youtube:"https://youtu.be/f5wM02V31_4",
     demo: true,
   },
   {
@@ -30,9 +30,20 @@ export const ProjectList = [
     tech_stack: "Nextjs, Prisma, NextAuth, Shadcn UI",
     github_url: "https://github.com/ritankarsaha/Netflix-Ritankar",
     live_url: "https://netflix-ritankar.vercel.app/home",
-    demo_youtube: "",
+    demo_youtube: "https://youtu.be/QhUHkdTzfL8",
     demo: true,
   },
+  {
+    img:"/assets/Projects/projectlast.png",
+    title: "Portflio Website",
+    description:
+       "This is my personal Portfolio Website, the website that you are currently viewing.",
+    tech_stack: "Reactjs",
+    github_url: "https://github.com/ritankarsaha/portfolio-website",
+    live_url: "https://ritankarsaha-portfolio.netlify.app/",
+    demo_youtube: "https://youtu.be/-J-rLEes5go",
+    demo: true,
+  }
 ];
 
 export const ExperienceList = [
