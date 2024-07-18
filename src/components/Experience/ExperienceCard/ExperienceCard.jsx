@@ -22,18 +22,38 @@ function ExperienceCard() {
               </ul>
             </div>
 
-            {list.isc && (
-              <BtnGroup>
+            <BtnGroup>
+              {list.experience_certificate1 && (
                 <a
                   className="btn PrimaryBtn"
-                  href={list.certificate1}
+                  href={list.experience_certificate1}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Certificate ➜
+                  Certificate 1 ➜
                 </a>
-              </BtnGroup>
-            )}
+              )}
+              {list.experience_certificate2 && (
+                <a
+                  className="btn PrimaryBtn"
+                  href={list.experience_certificate2}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Certificate 2 ➜
+                </a>
+              )}
+              {list.experience_certificate3 && (
+                <a
+                  className="btn PrimaryBtn"
+                  href={list.experience_certificate3}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Certificate 3 ➜
+                </a>
+              )}
+            </BtnGroup>
           </ExperienceCardRight>
         </ExpCard>
       ))}

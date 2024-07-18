@@ -1,5 +1,11 @@
 {
   "name": "portfolio",
+  "owner": "Ritankar Saha",
+  "author": "Ritankar Saha",
+  "credits": "Ritankar Saha",
+  "description": "This is the personal portoflio website of Ritankar Saha",
+  "disclaimer": "This code is not reusable or cannot be re-created by any means whatsoever, the repo too isn't open source",
+  "copyright": "Ritankar Saha @2024, portoflio-webiste-personal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
