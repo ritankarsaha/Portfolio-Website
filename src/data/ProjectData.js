@@ -35,6 +35,8 @@ export const ProjectList = [
   },
 ];
 
+
+// --------------------------------------- Experience List
 export const ExperienceList = [
   
   {
@@ -46,6 +48,25 @@ export const ExperienceList = [
             
     ],
     role: "Open Source Intern (March 2024 - May 2024)",
+    certificate1:
+      "",
+    certificate2:
+    "",
+    isc: true,
+  },
+];
+
+// --------------------------------------- Awards List
+export const AwardsList = [
+  
+  {
+    title: "Re-Dev Hackathon at IIT Kanpur",
+    description: [
+      "Participated at the Re-Dev Hackathon in IIT Kanpur, a website-building hackathon and secured the 3rd postition amongst 26 competiting teams",
+      "Presented with a certificate and 25,000 cash awards."
+            
+    ],
+    role: "Backend Web-Developer",
     certificate:
       "",
     isc: true,
