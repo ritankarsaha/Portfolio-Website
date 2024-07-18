@@ -26,7 +26,7 @@ function ExperienceCard() {
               <BtnGroup>
                 <a
                   className="btn PrimaryBtn"
-                  href={list.certificate}
+                  href={list.certificate1}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
