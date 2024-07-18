@@ -82,6 +82,18 @@ export const AwardsList = [
       "",
     isc: true,
   },
+  {
+    title: "GSSoC Explorer Badge",
+    description: [
+      "I demonstrated active participation in the program by contributing to over 23 repositories, resolving approximately 39 issues, and initiating over 20 issues of my own after thorough analysis of the website thereby gaining myself the explorer badge.",
+      "Presented with a certificate and 25,000 cash awards."
+            
+    ],
+    role: "Open-Source Developer",
+    certificate:
+      "",
+    isc: true,
+  },
 ];
 
 // --------------------------------------- Skills
