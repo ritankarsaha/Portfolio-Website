@@ -152,7 +152,9 @@ video {
 .SectionTitle.experience{
   color: #f6f6f6;
 }
-
+.SectionTitle.awards{
+  color: #f6f6f6;
+}
 .SectionTitle.contact{
   color: #f6f6f6;
 }
@@ -163,6 +165,11 @@ video {
 }
 
 #experience {
+  padding: 5rem 0;
+  background: #151418;
+  margin: 70px 0px;
+}
+#awards {
   padding: 5rem 0;
   background: #151418;
   margin: 70px 0px;
