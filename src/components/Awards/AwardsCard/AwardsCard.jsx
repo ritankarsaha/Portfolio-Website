@@ -1,14 +1,14 @@
 import React from "react";
-import { ExperienceList } from "../../../data/ProjectData";
+import { AwardsList } from "../../../data/ProjectData";
 import { BtnGroup } from "../../Projects/ProjectCard/ProjectCardElements";
-import { ExpCard, ExperienceCardRight } from "./styles";
+import { AwardsCard, AwardsCardRight } from "./styles";
 
-function ExperienceCard() {
+function HonoursAndAwardsCard() {
   return (
     <React.Fragment>
-      {ExperienceList.map((list, index) => (
-        <ExpCard key={index}>
-          <ExperienceCardRight data-aos="fade-up-left">
+      {AwardsList.map((list, index) => (
+        <AwardsCard key={index}>
+          <AwardsCardRight data-aos="fade-up-left">
             <h4>{list.title}</h4>
 
             <div className="role">{list.role}</div>
@@ -26,7 +26,7 @@ function ExperienceCard() {
               <BtnGroup>
                 <a
                   className="btn PrimaryBtn"
-                  href={list.certificate1}
+                  href={list.certificate}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -34,11 +34,11 @@ function ExperienceCard() {
                 </a>
               </BtnGroup>
             )}
-          </ExperienceCardRight>
-        </ExpCard>
+          </AwardsCardRight>
+        </AwardsCard>
       ))}
     </React.Fragment>
   );
 }
 
-export default ExperienceCard;
+export default HonoursAndAwardsCard;
