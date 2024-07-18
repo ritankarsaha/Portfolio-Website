@@ -22,18 +22,41 @@ function HonoursAndAwardsCard() {
               </ul>
             </div>
 
-            {list.isc && (
+            
               <BtnGroup>
-                <a
+                {list.award_certificate1 && (
+                  <a
                   className="btn PrimaryBtn"
-                  href={list.certificate}
+                  href={list.award_certificate1}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Certificate ➜
+                  Certificate 1 ➜
                 </a>
+                )}
+                {list.award_certificate2 && (
+                  <a
+                  className="btn PrimaryBtn"
+                  href={list.award_certificate2}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Certificate 2 ➜
+                </a>
+                )}
+                {list.award_certificate3 && (
+                  <a
+                  className="btn PrimaryBtn"
+                  href={list.award_certificate3}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Certificate 3 ➜
+                </a>
+                )}
+                
               </BtnGroup>
-            )}
+            
           </AwardsCardRight>
         </AwardsCard>
       ))}

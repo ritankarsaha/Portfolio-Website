@@ -5,7 +5,7 @@ function Awards() {
     <React.Fragment>
       <div className="ProjectWrapper" id="awards">
         <div className="Container">
-          <div className="SectionTitle awards">Awards</div>
+          <div className="SectionTitle awards">Achievements</div>
          <HonoursAndAwardsCard/>
         </div>
       </div>

@@ -59,11 +59,12 @@ export const ExperienceList = [
             
     ],
     role: "Open Source Intern (March 2024 - May 2024)",
-    certificate1:
+    experience_certificate1:
       "",
-    certificate2:
-    "",
-    isc: true,
+    experience_certificate2:
+    "https://drive.google.com/file/d/15QFYPRyeasNEGaep9x7mncBi4fFS5-Fs/view?usp=sharing",
+    experience_certificate3:
+    "https://drive.google.com/file/d/1lbUgD6cmTyYNTE1iW6KpmInjIDrHdDg_/view?usp=sharing",
   },
 ];
 
@@ -71,15 +72,20 @@ export const ExperienceList = [
 export const AwardsList = [
   
   {
-    title: "Re-Dev Hackathon at IIT Kanpur",
+    title: "Re-Dev Hackathon & CTF at IIT Kanpur",
     description: [
       "Participated at the Re-Dev Hackathon in IIT Kanpur, a website-building hackathon and secured the 3rd postition amongst 26 competiting teams",
-      "Presented with a certificate and 25,000 cash awards."
+      "Presented with a certificate and 25,000 cash awards.",
+      "Also competed in the CTF event organised by IIT Kanpur, and secured the 3rd position in that with a certificate of appreciation and cash prize of 2000."
             
     ],
     role: "Backend Web-Developer",
-    certificate:
-      "",
+    award_certificate1:
+    "https://drive.google.com/file/d/1ATtUfkcSZuP9KCiwIlf0aT3gN8xkMt0A/view?usp=sharing",
+    award_certificate2:
+    "https://drive.google.com/file/d/1Mp3ubUVoTbc9jWQ1SrJlkOouLxn-f8wd/view?usp=sharing",
+    award_certificate3:
+    "https://drive.google.com/file/d/1OQmtxwX2IlD9cAi9rP7YLyaNYphTnZf2/view?usp=sharing",
     isc: true,
   },
   {
@@ -90,8 +96,10 @@ export const AwardsList = [
             
     ],
     role: "Open-Source Developer",
-    certificate:
+    award_certificate1:
       "",
+    award_certificate2:
+    "https://drive.google.com/file/d/15QFYPRyeasNEGaep9x7mncBi4fFS5-Fs/view?usp=sharing",
     isc: true,
   },
 ];
