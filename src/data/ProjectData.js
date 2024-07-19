@@ -70,6 +70,20 @@ export const ExperienceList = [
 
 // --------------------------------------- Awards List
 export const AwardsList = [
+  {
+    title: "GSSoC Explorer Badge",
+    description: [
+      "I demonstrated active participation in the program by contributing to over 23 repositories, resolving approximately 39 issues, and initiating over 20 issues of my own after thorough analysis of the website thereby gaining myself the explorer badge.",
+      
+            
+    ],
+    role: "Open-Source Developer",
+    award_certificate1:
+      "",
+    award_certificate2:
+    "https://drive.google.com/file/d/15QFYPRyeasNEGaep9x7mncBi4fFS5-Fs/view?usp=sharing",
+    isc: true,
+  },
   
   {
     title: "Re-Dev Hackathon & CTF at IIT Kanpur",
@@ -88,20 +102,7 @@ export const AwardsList = [
     "https://drive.google.com/file/d/1OQmtxwX2IlD9cAi9rP7YLyaNYphTnZf2/view?usp=sharing",
     isc: true,
   },
-  {
-    title: "GSSoC Explorer Badge",
-    description: [
-      "I demonstrated active participation in the program by contributing to over 23 repositories, resolving approximately 39 issues, and initiating over 20 issues of my own after thorough analysis of the website thereby gaining myself the explorer badge.",
-      
-            
-    ],
-    role: "Open-Source Developer",
-    award_certificate1:
-      "",
-    award_certificate2:
-    "https://drive.google.com/file/d/15QFYPRyeasNEGaep9x7mncBi4fFS5-Fs/view?usp=sharing",
-    isc: true,
-  },
+ 
 ];
 
 // --------------------------------------- Skills
