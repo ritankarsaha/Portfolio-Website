@@ -14,7 +14,7 @@ cd portfolio-website
 
 ### 2. Running the Services
 ```
-docker-compose up -d
+docker-compose up --build
 ```
 
 
