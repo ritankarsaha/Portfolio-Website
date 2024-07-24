@@ -1,4 +1,4 @@
-# __Dockerize the potfolio-website__
+# __Dockerize the portfolio-website__ritankarsaha
 
 ## __Prerequisites__
 ### 1. Docker
