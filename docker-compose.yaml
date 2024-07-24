@@ -1,0 +1,7 @@
+services:
+  portfolio-website:
+    build:
+      context: .
+    image: portfolio-website:01
+    ports:
+      - "8001:3000"
