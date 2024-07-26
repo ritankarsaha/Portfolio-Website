@@ -108,6 +108,30 @@ export const HeroLeft = styled.div`
   }
 `;
 
+export const HeroButton = styled.button`
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 40px; 
+
+  &:hover {
+    background: #0056b3;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  @media screen and (max-width: 992px) {
+    margin-top: 20px; 
+  }
+`;
+
 const ScrollAnimation = keyframes`
   0%,
   20%,

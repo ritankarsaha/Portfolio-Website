@@ -1,5 +1,5 @@
-
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom"; // Import useHistory
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
 import TypewriterEffect from "../TypeWriter/TypewriterEffect";
@@ -9,13 +9,19 @@ import {
   HeroLeft,
   ScrollDown,
   ScrollLink,
+  HeroButton,
 } from "./HeroElements";
 
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
+  const history = useHistory(); // Initialize useHistory
 
   const toggle = () => {
     setIsOpen(!isOpen);
+  };
+
+  const navigateToVideos = () => {
+    history.push("/videos");
   };
 
   return (
@@ -26,7 +32,7 @@ function Hero() {
         <HeroWrapper>
           <HeroLeft>
             <h1>
-             <TypewriterEffect text="Hi, I'm Ritankar Saha" speed={250} />
+              <TypewriterEffect text="Hi, I'm Ritankar Saha" speed={250} />
             </h1>
             <p className="description">
               <TypewriterEffect
@@ -34,6 +40,7 @@ function Hero() {
                 speed={40}
               />
             </p>
+            <HeroButton onClick={navigateToVideos}>Content I Created </HeroButton>
           </HeroLeft>
         </HeroWrapper>
         <ScrollDown to="projects">
