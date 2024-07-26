@@ -1,4 +1,4 @@
-// --------------------------------------- Project List
+// --------------------------------------- Project Listing List
 export const ProjectList = [
   {
     img: "/assets/Projects/project1.png",
@@ -45,6 +45,76 @@ export const ProjectList = [
     demo: true,
   }
 ];
+
+
+
+// ----------------------------------------------------- Project Video List
+
+export const ProjectVideosList = [
+  {
+    title: "Codeforces-Data-Visualiser Demo",
+    description: "A demo of the Codeforces Data Visualiser project.",
+    link: "https://youtu.be/t_bb4BXj02c",
+    img: "https://img.youtube.com/vi/t_bb4BXj02c/0.jpg"
+  },
+  {
+    title: "Personal-Blogging Application Demo",
+    description: "A demo of the Personal Blogging Application project.",
+    link: "https://youtu.be/f5wM02V31_4",
+    img: "https://img.youtube.com/vi/f5wM02V31_4/0.jpg"
+  },
+  {
+    title: "Full-Stack Netflix-Clone Demo",
+    description: "A demo of the Full-Stack Netflix-Clone project.",
+    link: "https://youtu.be/QhUHkdTzfL8",
+    img: "https://img.youtube.com/vi/QhUHkdTzfL8/0.jpg"
+  },
+  {
+    title: "Portfolio Website Demo",
+    description: "A demo of my Portfolio Website project.",
+    link: "https://youtu.be/-J-rLEes5go",
+    img: "https://img.youtube.com/vi/-J-rLEes5go/0.jpg"
+  }
+];
+
+
+
+// ----------------------------- Golang Series Project List
+
+export const GolangVideosList = [
+  {
+    title: "Golang Introductory Video",
+    description: "An introduction video on Golang",
+    link: "https://youtu.be/Vysf_GOR_WI",
+    img: "https://img.youtube.com/vi/Vysf_GOR_WI/0.jpg"
+  },
+  {
+    title: "Basic Printing Stuff in Golang",
+    description: "A video on basic printing in Golang",
+    link: "https://youtu.be/42qgVrirvpQ",
+    img: "https://img.youtube.com/vi/42qgVrirvpQ/0.jpg"
+  },
+  {
+    title: "Variables in Golang Part-1",
+    description: "A video on how variables are being used in Golang. PART-1",
+    link: "https://youtu.be/HeHd-sKe3xI",
+    img: "https://img.youtube.com/vi/HeHd-sKe3xI/0.jpg"
+  },
+  {
+    title: "Varibles in Golang Part-2",
+    description: "A video on how variables are being used in Golang. PART-2",
+    link: "https://youtu.be/4VaRQ2eQDms",
+    img: "https://img.youtube.com/vi/4VaRQ2eQDms/0.jpg"
+  },
+  {
+    title: "User-Inputs in Golang",
+    description: "A video on how user-inputs are being taken in Golang",
+    link: "https://youtu.be/0ndaEdmAvfo",
+    img: "https://img.youtube.com/vi/0ndaEdmAvfo/0.jpg"
+  }
+];
+
+
 
 
 // --------------------------------------- Experience List
