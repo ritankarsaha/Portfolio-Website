@@ -117,7 +117,8 @@ export const HeroButton = styled.button`
   border-radius: 5px;
   cursor: pointer;
   transition: background 0.3s;
-  margin-top: 40px; 
+  margin-top: 30px;
+  margin-right: 20px; 
 
   &:hover {
     background: #0056b3;

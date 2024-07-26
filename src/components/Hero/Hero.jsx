@@ -37,10 +37,16 @@ function Hero() {
             <p className="description">
               <TypewriterEffect
                 text={`I'm a software developer skilled at Full-Stack Development specialising in <strong>Back-End Development</strong> and <strong>Software Architecture</strong>. I enjoy discussing topics relating to <strong>System Design</strong>, <strong>DevOps</strong>, and <strong>Cloud Architecture</strong>. Hit me up at <a href="https://x.com/ritankarxx"><strong>X</strong></a> if you want to chat about <strong>System Architecture</strong>, <strong>Bitcoin</strong>, <strong>Cloud</strong>, <strong>Go-Lang</strong> or <strong>anything</strong> you have in mind. Let's create something great together!!`}
-                speed={40}
+                speed={13}
               />
             </p>
-            <HeroButton onClick={navigateToVideos}>Content I Created </HeroButton>
+            <div>
+            <HeroButton onClick={() => window.location.href = "https://ritankar-blogging.netlify.app/writing"}>
+             Personal Blogging
+            </HeroButton>
+            <HeroButton onClick={navigateToVideos}>Contents I Created </HeroButton>
+            </div>
+           
           </HeroLeft>
         </HeroWrapper>
         <ScrollDown to="projects">

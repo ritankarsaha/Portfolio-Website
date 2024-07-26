@@ -1,5 +1,6 @@
 import React from "react";
-import { FaLinkedin, FaInstagram, FaGithub, FaWhatsapp, FaBloggerB, FaDiscord} from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaGithub, FaWhatsapp, FaDiscord, } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 import { FaXTwitter } from "react-icons/fa6";
 import styled from "styled-components";
 
@@ -55,6 +56,15 @@ function FixSocialIcon() {
         </li>
         <li className="item">
           <a
+            href="mailto:ritankar.saha786@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IoMdMail />
+          </a>
+        </li>
+        <li className="item">
+          <a
             href="https://github.com/ritankarsaha"
             target="_blank"
             rel="noopener noreferrer"
@@ -87,15 +97,6 @@ function FixSocialIcon() {
             rel="noopener noreferrer"
           >
             <FaWhatsapp />
-          </a>
-        </li>
-        <li className="item">
-          <a
-            href="https://ritankar-blogging.netlify.app/writing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaBloggerB />
           </a>
         </li>
         <li className="item">
