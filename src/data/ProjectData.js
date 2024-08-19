@@ -121,7 +121,7 @@ export const GolangVideosList = [
 export const ExperienceList = [
   
   {
-    title: "GSSoC'24 GirlScript Summer of Code",
+    title: "GSSoC'24 (GirlScript Summer of Code)",
     description: [
       "As a keen open-source developer and to prepare for future open-source opportunities like GSoC, SOB, Outreachy, etc., I enrolled and secured selection for the GSSoC’24 program.",
       "I demonstrated active participation in the program by contributing to over 23 repositories, resolving approximately 39 issues, and initiating over 20 issues of my own after thorough analysis of the website.",
