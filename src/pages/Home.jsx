@@ -6,6 +6,9 @@ import Contact from "../components/Contact/Contact";
 import FixSocialIcon from "../components/SocialIcon/FixSocialIcon";
 import Experience from "../components/Experience/Experience";
 import Awards from "../components/Awards/Awards";
+import BoilerPlateProjects from "../components/Boilerplate_Projects/Boilerplate_Projects";
+import UtilityProjects from "../components/Utility_Projects/Utility_Projects"
+
 
 const Home = () =>
  (
@@ -14,6 +17,8 @@ const Home = () =>
       <About />
       <Experience />
       <Projects />
+      <BoilerPlateProjects/>
+      <UtilityProjects/>
       <Awards/>
       <Contact />
       <FixSocialIcon />
