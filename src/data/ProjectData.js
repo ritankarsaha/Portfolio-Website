@@ -29,7 +29,7 @@ export const ProjectList = [
       "This is a robust media uploading and storage website built leveraging the features of Amplify and GraphQL. Built to handle 10,000 traffic at any instant time with photos getting uploaded in S3 buckets.",
     tech_stack: "Typescript, AWS-Amplify, Dynamo-DB, S3 Buckets, GraphQL, aws-ec2, aws-cli",
     github_url: "https://github.com/ritankarsaha/Park-Website-AWS-Amplify",
-    live_url: "https://master.d1cdu92luafnrq.amplifyapp.com/",
+    live_url: "https://master.d1cdu92luafnrq.amplifyapp.commmm/",
     demo_youtube:"",
     demo: true,
   },
